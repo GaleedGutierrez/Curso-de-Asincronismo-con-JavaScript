@@ -13,8 +13,7 @@ function fetchData (url_api, callback) {
                 const error = new Error('Error ' + url_api);
                 return callback(error, null);
             }
-        } 
+        }
     }
     xhttp.send();
 }
-
